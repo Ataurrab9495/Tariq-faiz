@@ -1,0 +1,10 @@
+.card-gallery{
+    column-gap: .75rem;
+}
+
+.Button{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
