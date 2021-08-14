@@ -4,12 +4,14 @@ import Footer from '../components/Footers/Footer'
 import LatestAlbum from '../components/LatestAlbum'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/sideBar'
+import Tickets from '../components/Ticket Booking/Ticket'
 import TimeLeft from '../components/TimeLeft/TimeLeft'
 import About from './About/About'
 import ContactPage from './Contact/Contact'
 import Discography from './DiscoGraphy/Discography'
 import GalleryArea from './Gallery/Gallery'
 import BlogNews from './News/News'
+import Tours from './Tours/Tour'
 
 
 
@@ -29,6 +31,8 @@ const Home = () => {
             <About/>
             <Discography/>
             <TimeLeft/>
+            <Tours/>
+            <Tickets/>
             <GalleryArea/>
             <BlogNews/>
             <ContactPage/>

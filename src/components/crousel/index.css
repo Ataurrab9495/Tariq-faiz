@@ -1,5 +1,6 @@
 .zoom-img {
     animation: scale 40s linear infinite;
+    
   }
     
   @keyframes scale {

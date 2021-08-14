@@ -8,6 +8,7 @@ export const CarouselConatiner= styled.div`
     object-fit:cover;
     background:#232a34;
     background-size: cover;
+    margin-top:-80px;
 
 `
 

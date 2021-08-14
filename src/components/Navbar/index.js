@@ -1,13 +1,28 @@
-import React from 'react';
+import React,{useState, useEffect} from 'react';
 import {FaBars} from 'react-icons/fa'
 import {ImMusic} from 'react-icons/im'
 import {BiSearch} from 'react-icons/bi'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, Search,PlayList } from './NavbarElements'
 
 const Navbar = ({toggle}) => {
+
+    const [ScrollNav , SetScrollNav] = useState(false)
+
+    const changeNav = () =>{
+        if(window.scrollY >= 80){
+            SetScrollNav(true);
+        } else{
+            SetScrollNav(false);
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', changeNav);
+    },[])
+
     return (
         <>
-            <Nav>
+            <Nav ScrollNav={ScrollNav}>
                 <NavbarContainer>
                     <NavLogo to="/">Tariq Faiz</NavLogo>
                     <MobileIcon onClick={toggle}>
@@ -18,32 +33,30 @@ const Navbar = ({toggle}) => {
                             <NavLinks to="/">HOME</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="about">ABOUT</NavLinks>
+                            <NavLinks to="/">ABOUT</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="discography">DISCOGRAPHY</NavLinks>
+                            <NavLinks to="/Discography">DISCOGRAPHY</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="band">BAND</NavLinks>
+                            <NavLinks to="/Band">BAND</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="tours">TOURS</NavLinks>
+                            <NavLinks to="/Tours">TOURS</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="gallery">GALLERY</NavLinks>
+                            <NavLinks to="/Gallery">GALLERY</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="news">NEWS</NavLinks>
+                            <NavLinks to="/News">NEWS</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="contact">CONTACT</NavLinks>
+                            <NavLinks to="/Contact">CONTACT</NavLinks>
                         </NavItem>
                         <PlayList>
                             <ImMusic to="music"/>
                         </PlayList>
-                        <Search>
-                            <BiSearch to="search"/>
-                        </Search>
+                        
                     </NavMenu>
                 </NavbarContainer>
             </Nav>

@@ -24,7 +24,7 @@ export const AlbumHeading = styled.h1`
     -webkit-transition: opacity 0.24s ease-in-out;
     -moz-transition: opacity 0.24s ease-in-out;
     transition: opacity 0.24s ease-in-out;
-
+    
 
     @media screen and (max-width:768px){
         font-size:50px;
@@ -35,26 +35,28 @@ export const AlbumHeading = styled.h1`
         text-align:center;
     }
 
+    
 `
 
 export const BlockTitle= styled.div`
     display: inline-block;
     position: relative;
     padding: 0 .625em;
-
-     &::before{
-        position: absolute;
-        content: "";
-        width: 100%;
-        height: .375rem;
-        background: #ff5252;
-        bottom: .875rem;
-        left: 0;
-    }
-
-    &::after{
-        clear:both;
-    }
+    z-index:1;
+     
+        
+    &::before{
+        
+       position: absolute;
+       content: " ";
+       width: 100%;
+       height: .975rem;
+       background: #ff5252;
+       bottom: .975rem;
+       left: 0;
+       z-index:-1;
+       top:60%;
+   
 
     @media screen and (max-width:480px){
         &::before{

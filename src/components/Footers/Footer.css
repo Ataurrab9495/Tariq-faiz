@@ -1,14 +1,14 @@
 .footer{
-    padding-top: 60px !important;
-    padding-bottom: 60px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
 }
 
 .position{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .footer-link{
-    font-size:10px;
+    font-size:15px;
     text-decoration: none;
 }

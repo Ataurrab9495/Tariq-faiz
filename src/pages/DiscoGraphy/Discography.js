@@ -5,7 +5,8 @@ import styled from 'styled-components'
 import { AiFillApple } from 'react-icons/ai'
 import { IoMdPlay } from 'react-icons/io'
 import { SiAmazon } from 'react-icons/si'
-import { FaSoundcloud } from 'react-icons/fa'
+import { FaSoundcloud, FaSpotify } from 'react-icons/fa'
+
 
 export const BlockOfIcon = styled.ul`
 padding-left: 0px;
@@ -76,6 +77,19 @@ export const Soundcloud = styled(FaSoundcloud)`
     }
 `
 
+export const Spotify = styled(FaSpotify)`
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:#fff;
+    border: 1px solid gray;
+    font-size:25px;
+
+    &:hover{
+        color:grey;
+    }
+`
+
 export const IconsContainer = styled.div`
     display:flex;
 `
@@ -112,6 +126,9 @@ const Discography = () => {
                                                 <Link to="/"><Amazon /></Link>
                                             </Icons>
                                             <Icons>
+                                                <Link to="/"><Spotify /></Link>
+                                            </Icons>
+                                            <Icons>
                                                 <Link to="/"><Soundcloud /></Link>
                                             </Icons>
                                         </BlockOfIcon>
@@ -135,6 +152,9 @@ const Discography = () => {
                                             </Icons>
                                             <Icons>
                                                 <Link to="/"><Amazon /></Link>
+                                            </Icons>
+                                            <Icons>
+                                                <Link to="/"><Spotify /></Link>
                                             </Icons>
                                             <Icons>
                                                 <Link to="/"><Soundcloud /></Link>
@@ -162,6 +182,9 @@ const Discography = () => {
                                                 <Link to="/"><Amazon /></Link>
                                             </Icons>
                                             <Icons>
+                                                <Link to="/"><Spotify /></Link>
+                                            </Icons>
+                                            <Icons>
                                                 <Link to="/"><Soundcloud /></Link>
                                             </Icons>
                                         </BlockOfIcon>
@@ -185,6 +208,9 @@ const Discography = () => {
                                             </Icons>
                                             <Icons>
                                                 <Link to="/"><Amazon /></Link>
+                                            </Icons>
+                                            <Icons>
+                                                <Link to="/"><Spotify /></Link>
                                             </Icons>
                                             <Icons>
                                                 <Link to="/"><Soundcloud /></Link>

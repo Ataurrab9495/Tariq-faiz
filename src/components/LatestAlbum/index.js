@@ -26,32 +26,28 @@ const LatestAlbum = () => {
         <>
             <AlbumContainer>
                 <BlockTitle>
-                    <AlbumHeading>Latest Album</AlbumHeading>
+                    <AlbumHeading>latestAlbum</AlbumHeading>
                 </BlockTitle>
 
                 <Album {...Data} />
-                
+
                 <IconsContainer>
-                <BlockOfIcon>
-                    <Icons>
-                        <Link to="/"><Apples /></Link>
-                    </Icons>
-                    <Icons>
-                    <Link to="/"><Play /></Link>
-                    </Icons>
-                    <Icons>
-                    <Link to="/"><Amazon /></Link>
-                    </Icons>
-                    <Icons>
-                    <Link to="/"><Soundcloud /></Link>
-                    </Icons>
-                </BlockOfIcon>
+                    <BlockOfIcon>
+                        <Icons>
+                            <Link to="/"><Apples /></Link>
+                        </Icons>
+                        <Icons>
+                            <Link to="/"><Play /></Link>
+                        </Icons>
+                        <Icons>
+                            <Link to="/"><Amazon /></Link>
+                        </Icons>
+                        <Icons>
+                            <Link to="/"><Soundcloud /></Link>
+                        </Icons>
+                    </BlockOfIcon>
                 </IconsContainer>
-                {/* <PlayListContainer>
-                    <PlayList>
-                        
-                    </PlayList>
-                </PlayListContainer> */}
+                
             </AlbumContainer>
         </>
     )

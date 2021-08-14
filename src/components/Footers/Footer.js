@@ -11,28 +11,28 @@ const Footer = () => {
                       <div className="col-lg-6 col-md-6">
                           <p>&copy; 2021 Developed by My Media Markets | All Rights Reserved</p>
                       </div>
-                      <div className="col-lg-6 col-md-6 position">
+                      <div className="col-lg-6 col-md-6">
                           <div className="row">
-                              <div className="col-lg-3 col-md-3 position">
+                              <div className="position">
                                   <div className="footer-link">
-                                      <Link to="/">privacy policy</Link>
+                                      <Link to="/" className="news-link">privacy policy</Link>
                                   </div>
-                              </div>
-                              <div className="col-lg-3 col-md-3 position">
+                              
+                              
                               <div className="footer-link">
-                                      <Link to="/">Terms of Use</Link>
+                                      <Link to="/" className="news-link">Terms of Use</Link>
                                   </div>
-                              </div>
-                              <div className="col-lg-3 col-md-3 position">
+                              
+                              
                               <div className="footer-link">
-                                      <Link to="/">About</Link>
+                                      <Link to="/" className="news-link">About</Link>
                                   </div>
-                              </div>
-                              <div className="col-lg-3 col-md-3 position">
+                              
+                              
                               <div className="footer-link">
-                                      <Link to="/">Legal</Link>
+                                      <Link to="/" className="news-link">Legal</Link>
                                   </div>
-                              </div>
+                             </div> 
                           </div>
                       </div>
                   </div>

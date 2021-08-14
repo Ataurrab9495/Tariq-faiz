@@ -1,10 +1,17 @@
-import React from 'react'
+import React,{useState} from 'react'
 import {Carousel} from 'react-bootstrap'
 import {CarouselConatiner, CustomCarousal, CarouselH1, CarouselP, PlayIcon} from './CarouselElements'
 import './index.css'
 import {Link} from 'react-router-dom'
+import Video from './Video'
 
 const Crousels = () => {
+  const[showModal, SetShowModal] = useState(false)
+
+  const openModal = () => {
+    SetShowModal(prev => !prev);
+  }
+
     return (
         <>
         <CarouselConatiner>
@@ -39,8 +46,9 @@ const Crousels = () => {
       <CustomCarousal>
         <CarouselH1>Welcome to The Website</CarouselH1>
         <CarouselP>Hii this is tariq faiz</CarouselP>
-        <Link to="https://www.youtube.com/watch?v=IpZiIB9tgOc&list=WL&index=226">
-        <PlayIcon/>
+        <Link to="/">
+        <PlayIcon onClick={openModal} />
+        <Video showModal={showModal} setShowModal={SetShowModal}/>
         </Link>
       </CustomCarousal>
     </Carousel.Caption>

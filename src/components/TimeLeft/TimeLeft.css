@@ -42,7 +42,7 @@ h1{
 }
 
 .timer div:first-child p{
-    color:#f8f8f8;
+    color:#f8f8f8 !important;
     font-size: 20px;
 }
 
@@ -58,11 +58,13 @@ h1{
 }
 
 section p:first-child, .timer div:last-child span{
-    font-size: 30px;
+    font-size: 30px !important;
+    color:#fff !important;
 }
 
 section p:last-child{
-    font-size: 30px;
+    font-size: 20px !important;
+    color:#fff !important;
 }
 
 @media screen and (max-width:480px){
@@ -140,7 +142,7 @@ section p:last-child{
     }
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:768px){
     .TimerContainer{
         --bs-gutter-x:50px;
     padding-left:calc(var(--bs-gutter-x)/2);
@@ -157,10 +159,10 @@ section p:last-child{
     }
 
     section p:first-child, .timer div:last-child span{
-        font-size: 20px;
+        font-size: 15px;
     }
     
     section p:last-child{
-        font-size: 20px;
+        font-size: 15px;
     }
 }

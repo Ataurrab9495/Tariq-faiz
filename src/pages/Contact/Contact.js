@@ -63,7 +63,7 @@ const ContactPage = () => {
                         </div>
                     </div>
 
-                    <div className="row mt-5 pb-5">
+                    <div className="row mt-5 pb-5 grids">
                         <div className="col-lg-2 col-md-2 justify-content-center">
                             <div className="Icons">
                                 <Link to="/"><Facebook /></Link>
@@ -95,6 +95,7 @@ const ContactPage = () => {
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </>
