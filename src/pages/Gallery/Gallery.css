@@ -9,6 +9,11 @@
     padding-bottom: 60px;
 }
 
+.Button a{
+	color:#fff;
+	text-decoration: none;
+}
+
 *{
 	box-sizing: border-box;
 }
@@ -75,4 +80,5 @@
 	.grid .span-v{
 		grid-row: span 2;
 	}
+	
 }

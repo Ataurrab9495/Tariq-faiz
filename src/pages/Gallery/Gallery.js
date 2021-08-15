@@ -46,7 +46,7 @@ const GalleryArea = () => {
                     <div class="two "><img src="//picsum.photos/seed/z/350" alt="" className="img" /></div> */}
                 </div>
                 <div className="Button">
-                    <Button className="btn btn-white">Fllow on Instagram</Button>
+                    <Button className="btn btn-white"><a href="https://instagram.com/tariqfaizofficial" target="_blank">Fllow on Instagram</a></Button>
                 </div>
             </Gallery>
         </>

@@ -22,7 +22,7 @@ const About = () => {
             <AboutContainer id="about">
                 <AboutContainerHolder>
                     <Row>
-                        <div className="col-lg-3 col-md-3 padding">
+                        <div className="col-lg-4 col-md-4 padding">
                             <AboutItems>
                                 <h1>Dr. Tariq Faiz, Indian Singer Songwriter, Poet & Mbbs.</h1>
                                 <p>Son of Renowned Poet and Arabic Scholar Mohammad Rafiq Nadwi & Shaista Parveen.
@@ -54,7 +54,7 @@ const About = () => {
                                 </IconsContainer>
                             </AboutItems>
                         </div>
-                        <div className="col-lg-3 col-md-3 padding">
+                        {/* <div className="col-lg-3 col-md-3 padding">
                             <AboutItems1>
                                 <div className="flex">
                                     <h3>upcoming tour</h3>
@@ -62,8 +62,8 @@ const About = () => {
                                     <p>Brooklyn, New York</p>
                                 </div>
                             </AboutItems1>
-                        </div>
-                        <div className="col-lg-3 col-md-3 padding">
+                        </div> */}
+                        <div className="col-lg-4 col-md-4 padding">
                             <AboutItems2>
                                 <div className="flex">
                                     <h3>Location</h3>
@@ -72,7 +72,7 @@ const About = () => {
                                 </div>
                             </AboutItems2>
                         </div>
-                        <div className="col-lg-3 col-md-3 padding">
+                        <div className="col-lg-4 col-md-4 padding">
                             <AboutItems3>
                                 <div className="flex1">
                                     <button type="button" className="btn btn-dark"><Tickets />Booka a Ticket</button>

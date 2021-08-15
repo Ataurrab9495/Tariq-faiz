@@ -1,14 +1,14 @@
 import React from 'react'
 import {AlbumInfo, AlbumUl, AlbumLi, AlbumH5, AlbumSpan} from './LatestAlbum'
 
-const Album = ({Label, songname, ReleaseDate, Genere, genre1, date, Styles, jonra}) => {
+const Album = ({Label, genre, date, Style}) => {
     return (
         <>
           <AlbumInfo>
                   <AlbumUl>
                       <AlbumLi>
                           <AlbumH5>Label:- </AlbumH5>
-                          <AlbumSpan>{songname}</AlbumSpan>
+                          <AlbumSpan>{Label}</AlbumSpan>
                       </AlbumLi>
                       <AlbumLi>
                           <AlbumH5>ReleaseDate:- </AlbumH5>
@@ -16,11 +16,11 @@ const Album = ({Label, songname, ReleaseDate, Genere, genre1, date, Styles, jonr
                       </AlbumLi>
                       <AlbumLi>
                           <AlbumH5>Genere:- </AlbumH5>
-                          <AlbumSpan>{genre1}</AlbumSpan>
+                          <AlbumSpan>{genre}</AlbumSpan>
                       </AlbumLi>
                       <AlbumLi>
                           <AlbumH5>Styles:- </AlbumH5>
-                          <AlbumSpan>{jonra}</AlbumSpan>
+                          <AlbumSpan>{Style}</AlbumSpan>
                       </AlbumLi>
                   </AlbumUl>
               </AlbumInfo>  

@@ -1,11 +1,11 @@
 export const Data={
    
-    songname:'Chiklu',
+    Label:'Candid Music Studio',
     
-    date:'12/08/2021',
+    date:'9th May 2021',
     
-    genre1:'pop',
+    genre:'Folk',
    
-    jonra:'indie pop'
+    Style:'Sufi'
 };
 

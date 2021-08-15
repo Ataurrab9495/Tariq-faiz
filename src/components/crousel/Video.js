@@ -38,7 +38,7 @@ const CloseSignUpModal = styled(AiOutlineClose)`
     height:35px;
     padding:0;
     z-index:10;
-    color:#000;
+    color:#fff;
     font-weight:bold;
 
     @media only screen and (max-width:768px){
