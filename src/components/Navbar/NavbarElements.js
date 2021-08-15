@@ -3,7 +3,7 @@ import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll'
 
 export const Nav = styled.nav`
-    background:${({ScrollNav}) => (ScrollNav ? '#000' : 'transparent')};
+    background:${({ScrollNav}) => (ScrollNav ? '#000' : '#0009')};
     height:80px;
     margin-top=:-80px;
     display:flex;
@@ -63,6 +63,7 @@ export const NavMenu = styled.ul`
     text-align:center;
     margin-right:-22px;
     margin-bottom:0;
+    padding-right:48px;
 
     @media screen and (max-width:768px){
         display:none;
@@ -86,12 +87,7 @@ export const NavLinks = styled(LinkS)`
     }
 `
 
-export const Search = styled.div`
-    padding:0px 24px;
-    color:#fff;
-    font-size:20px;
-    cursor:pointer;
-`
+
 
 export const PlayList= styled.div`
     cursor:pointer;

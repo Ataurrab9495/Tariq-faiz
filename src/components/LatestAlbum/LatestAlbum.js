@@ -1,16 +1,14 @@
 import styled from 'styled-components'
-import {AiFillApple} from 'react-icons/ai'
-import {IoMdPlay} from 'react-icons/io'
-import {SiAmazon} from 'react-icons/si'
-import {FaSoundcloud} from 'react-icons/fa'
+import {FaFacebookF, FaTwitter, FaInstagram, FaSpotify, FaYoutube} from 'react-icons/fa'
 
 export const AlbumContainer = styled.div`
-    background:#000000e6;
+    background-color: #3b2727;
+    background-image: linear-gradient(225deg, #3b2727 0%, #335454 50%, #291a1a 100%);
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    padding-top:40px;
+    padding-top:80px;
     padding-bottom:140px;
 `
 
@@ -50,12 +48,12 @@ export const BlockTitle= styled.div`
        position: absolute;
        content: " ";
        width: 100%;
-       height: .975rem;
+       height: .875rem;
        background: #ff5252;
-       bottom: .975rem;
+       bottom: .875rem;
        left: 0;
        z-index:-1;
-       top:60%;
+       top:67%;
    
 
     @media screen and (max-width:480px){
@@ -126,40 +124,44 @@ export const Icons = styled.li`
     margin-right:20px;
 `
 
- export const Apples = styled(AiFillApple)`
+ export const Facebook = styled(FaFacebookF)`
     display:flex;
     justify-content: center;
     align-items:center;
     color:#fff;
-    border: 1px solid gray;
-    font-size:35px;
+    font-size:25px;
 ` 
 
-export const Play = styled(IoMdPlay)`
+export const Instagram = styled(FaInstagram)`
     display:flex;
     justify-content: center;
     align-items:center;
     color:#fff;
-    border: 1px solid gray;
-    font-size:35px;
+    font-size:25px;
 `
 
-export const Amazon = styled(SiAmazon)`
+export const Twitter = styled(FaTwitter)`
     display:flex;
     justify-content: center;
     align-items:center;
     color:#fff;
-    border: 1px solid gray;
-    font-size:35px;
+    font-size:25px;
 `
 
-export const Soundcloud = styled(FaSoundcloud)`
+export const Youtube = styled(FaYoutube)`
     display:flex;
     justify-content: center;
     align-items:center;
     color:#fff;
-    border: 1px solid gray;
-    font-size:35px;
+    font-size:25px;
+`
+
+export const Spotify = styled(FaSpotify)`
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:#fff;
+    font-size:25px;
 `
 
 export const IconsContainer = styled.div`

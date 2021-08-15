@@ -1,8 +1,6 @@
 import styled from 'styled-components'
-import {AiFillApple} from 'react-icons/ai'
-import {IoMdPlay} from 'react-icons/io'
-import {SiAmazon} from 'react-icons/si'
-import {FaSoundcloud} from 'react-icons/fa'
+
+import {FaFacebookF, FaTwitter, FaInstagram, FaSpotify, FaYoutube} from 'react-icons/fa'
 import {ImTicket} from 'react-icons/im'
 
 export const AboutContainer = styled.div`
@@ -12,7 +10,7 @@ export const AboutContainer = styled.div`
     background-blend-mode: hard-light;
 
     @media screen and (max-width:768px){
-        background-size:cover;
+        
     }
 `
 
@@ -24,7 +22,7 @@ export const AboutContainerHolder = styled.div`
     margin-right:auto;
 
     @media screen and (max-width:768px){
-        --container-x:150px;
+        --container-x:100px;
     padding-left:calc(var(--container-x)/2);
     padding-right:calc(var(--container-x)/2);
     margin-left:auto;
@@ -33,6 +31,14 @@ export const AboutContainerHolder = styled.div`
 
     @media screen and (max-width:468px){
         --container-x:100px;
+    padding-left:calc(var(--container-x)/2);
+    padding-right:calc(var(--container-x)/2);
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+    @media screen and (max-width:1250px){
+        --container-x:90px;
     padding-left:calc(var(--container-x)/2);
     padding-right:calc(var(--container-x)/2);
     margin-left:auto;
@@ -57,7 +63,7 @@ h1{
 }
 
 p{
-    color:white;
+    color:#fff !important;
     font-size:15px;
 }
 `
@@ -79,52 +85,59 @@ export const Icons = styled.li`
     margin-right:20px;
 `
 
- export const Apples = styled(AiFillApple)`
+ export const Facebook = styled(FaFacebookF)`
     display:flex;
     justify-content: center;
     align-items:center;
     color:#fff;
-    border: 1px solid gray;
-    font-size:35px;
+    font-size:25px;
 
     &:hover{
         color:grey;
     }
 ` 
 
-export const Play = styled(IoMdPlay)`
+export const Instagram = styled(FaInstagram)`
     display:flex;
     justify-content: center;
     align-items:center;
     color:#fff;
-    border: 1px solid gray;
-    font-size:35px;
+    font-size:25px;
 
     &:hover{
         color:grey;
     }
 `
 
-export const Amazon = styled(SiAmazon)`
+export const Twitter = styled(FaTwitter)`
     display:flex;
     justify-content: center;
     align-items:center;
     color:#fff;
-    border: 1px solid gray;
-    font-size:35px;
+    font-size:25px;
 
     &:hover{
         color:grey;
     }
 `
 
-export const Soundcloud = styled(FaSoundcloud)`
+export const Youtube = styled(FaYoutube)`
     display:flex;
     justify-content: center;
     align-items:center;
     color:#fff;
-    border: 1px solid gray;
-    font-size:35px;
+    font-size:25px;
+
+    &:hover{
+        color:grey;
+    }
+`
+export const Spotify = styled(FaSpotify)`
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:#fff;
+    font-size:25px;
 
     &:hover{
         color:grey;
@@ -143,7 +156,8 @@ export const AboutItems1 = styled.div`
     .flex{
         
         border-radius:4px;
-        background:red;
+        background-color: #3a5556;
+        background-image: linear-gradient(180deg, #3a5556 0%, #3f293f 50%, #522d2d 100%);
         
         padding:12px 12px;
         color:white;
@@ -163,6 +177,7 @@ export const AboutItems1 = styled.div`
         font-weight:500;
         padding:0;
         margin:0;
+        color: #fff;
     }
 
     
@@ -172,7 +187,9 @@ export const AboutItems2 = styled.div`
 .flex{
         
     border-radius:4px;
-    background:black;
+    background-color: #3a5556;
+    background-image: linear-gradient(180deg, #3a5556 0%, #3f293f 50%, #522d2d 100%);
+
     
     padding:12px 12px;
     color:white;
@@ -192,6 +209,7 @@ p{
     font-weight:500;
     padding:0;
     margin:0;
+    color:#fff;
 }
 
 

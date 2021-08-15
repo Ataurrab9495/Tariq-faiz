@@ -1,5 +1,5 @@
 import React from 'react'
-import { Gallery, GalleryIconContainer, CameraIcon, Button } from './GalleryElements'
+import { Gallery, GalleryIconContainer, Button, GalleryHeading, GalleryH1 } from './GalleryElements'
 import { Link } from 'react-router-dom'
 import './Gallery.css'
 
@@ -7,9 +7,11 @@ import './Gallery.css'
 const GalleryArea = () => {
     return (
         <>
-            <Gallery>
+            <Gallery id="gallery">
                 <GalleryIconContainer>
-                    <CameraIcon></CameraIcon>
+                    <GalleryHeading>
+                        <GalleryH1>Gallery</GalleryH1>
+                    </GalleryHeading>
                 </GalleryIconContainer>
 
                 

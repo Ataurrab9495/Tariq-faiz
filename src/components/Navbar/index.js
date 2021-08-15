@@ -1,7 +1,7 @@
 import React,{useState, useEffect} from 'react';
 import {FaBars} from 'react-icons/fa'
 import {ImMusic} from 'react-icons/im'
-import {BiSearch} from 'react-icons/bi'
+
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, Search,PlayList } from './NavbarElements'
 
 const Navbar = ({toggle}) => {
@@ -33,28 +33,29 @@ const Navbar = ({toggle}) => {
                             <NavLinks to="/">HOME</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="/">ABOUT</NavLinks>
+                            <NavLinks to="about">ABOUT</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="/Discography">DISCOGRAPHY</NavLinks>
+                            <NavLinks to="discography">DISCOGRAPHY</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="/Band">BAND</NavLinks>
+                            <NavLinks to="band">BAND</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="/Tours">TOURS</NavLinks>
+                            <NavLinks to="tours">TOURS</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="/Gallery">GALLERY</NavLinks>
+                            <NavLinks to="gallery">GALLERY</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="/News">NEWS</NavLinks>
+                            <NavLinks to="news">NEWS</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="/Contact">CONTACT</NavLinks>
+                            <NavLinks to="contact">CONTACT</NavLinks>
                         </NavItem>
                         <PlayList>
-                            <ImMusic to="music"/>
+                        <NavLinks to="album"><ImMusic/></NavLinks>
+                            
                         </PlayList>
                         
                     </NavMenu>

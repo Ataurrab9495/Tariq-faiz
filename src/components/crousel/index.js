@@ -19,7 +19,7 @@ const Crousels = () => {
   <Carousel.Item>
     <img
       className="d-block w-100 zoom-img"
-      src="https://webredox.net/demo/wp/mousiqua/wp-content/uploads/2018/12/1.jpg"
+      src="https://i.ibb.co/6nv3rmS/Tariq-Faiz-BG1-1.png" 
       alt="First slide"
       height="620vh"
       width="100%"
@@ -27,15 +27,14 @@ const Crousels = () => {
     />
     <Carousel.Caption>
       <CustomCarousal>
-        <CarouselH1>Welcome to The Website</CarouselH1>
-        <CarouselP>Hii this is tariq faiz</CarouselP>
+        
       </CustomCarousal>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100 zoom-img"
-      src="https://webredox.net/demo/wp/mousiqua/wp-content/uploads/2018/12/2.jpg"
+      src="https://i.ibb.co/2FRYHhR/Tariq-Faiz-BG1.png" 
       alt="Second slide"
       height="620vh"
       width="100%"
@@ -44,8 +43,7 @@ const Crousels = () => {
 
     <Carousel.Caption>
       <CustomCarousal>
-        <CarouselH1>Welcome to The Website</CarouselH1>
-        <CarouselP>Hii this is tariq faiz</CarouselP>
+       
         <Link to="/">
         <PlayIcon onClick={openModal} />
         <Video showModal={showModal} setShowModal={SetShowModal}/>

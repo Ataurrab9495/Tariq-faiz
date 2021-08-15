@@ -5,17 +5,17 @@ import { Link } from 'react-router-dom'
 const BlogNews = () => {
     return (
         <>
-            <div className="NewsFeed">
+            <div className="NewsFeed" id="news">
                 <div className="NewsHeading">
                     <div className="block-title">
-                        <h1 className="upperCase">on the Blog</h1>
+                        <h1 className="upperCase">News</h1>
                     </div>
                 </div>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-md-6">
                             <Link>
-                                <img className="animated img-responsive" src="https://webredox.net/demo/wp/mousiqua/wp-content/uploads/2018/12/19.jpg" />
+                                <img className="animated img-responsive" src="https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2021/05/28/939475-tariq-faiz.jpg" />
                             </Link>
                         </div>
                         <div className="col-lg-6 col-md-6">

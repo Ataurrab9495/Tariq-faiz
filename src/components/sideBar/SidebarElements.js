@@ -39,10 +39,10 @@ export const SidebarWrapper = styled.div`
 export const SidebarMenu = styled.ul`
     display:grid;
     grid-template-columns:1fr;
-    grid-template-rows:repeat(6, 50px);
+    grid-template-rows:repeat(6, 80px);
 
     @media screen and (max-width:480px){
-        grid-template-rows:repeat(6, 30px);
+        grid-template-rows:repeat(6, 60px);
     }
 `
 

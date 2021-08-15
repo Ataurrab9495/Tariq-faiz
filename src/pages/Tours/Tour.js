@@ -9,7 +9,7 @@ function Tours() {
     const [selectedTab, setSelectedTab] = useParam("tab", "tab1");
 
     return (
-        <section className="tours-section">
+        <section className="tours-section" id="tours">
             <div className="containers">
                 <div className="tours-heading-container">
                     <div className="tours-heading">

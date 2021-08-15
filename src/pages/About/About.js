@@ -3,10 +3,11 @@ import './About.css'
 import {
     AboutContainer, Row, AboutItems, AboutContainerHolder, BlockOfIcon,
     Icons,
-    Apples,
-    Play,
-    Amazon,
-    Soundcloud,
+    Facebook,
+    Instagram,
+    Youtube,
+    Twitter,
+    Spotify,
     IconsContainer,
     AboutItems1,
     AboutItems2,
@@ -18,7 +19,7 @@ import { Link } from 'react-router-dom'
 const About = () => {
     return (
         <>
-            <AboutContainer>
+            <AboutContainer id="about">
                 <AboutContainerHolder>
                     <Row>
                         <div className="col-lg-3 col-md-3 padding">
@@ -35,16 +36,19 @@ const About = () => {
                                 <IconsContainer>
                                     <BlockOfIcon>
                                         <Icons>
-                                            <Link to="/"><Apples /></Link>
+                                            <a href="https://www.facebook.com/tariqfaizofficial/" target="_blank"><Facebook /></a>
                                         </Icons>
                                         <Icons>
-                                            <Link to="/"><Play /></Link>
+                                            <a href="https://instagram.com/tariqfaizofficial" target="_blank"><Instagram /></a>
                                         </Icons>
                                         <Icons>
-                                            <Link to="/"><Amazon /></Link>
+                                            <a href="https://twitter.com/drtariqfaiz" target="_blank"><Twitter /></a>
                                         </Icons>
                                         <Icons>
-                                            <Link to="/"><Soundcloud /></Link>
+                                            <a href="https://youtube.com/channel/UCkR160Ha5lOI8TuztwdWyCA" target="_blank"><Youtube /></a>
+                                        </Icons>
+                                        <Icons>
+                                            <a href="https://open.spotify.com/artist/5lX81FO7Lb5U6zrzinxAAe?si=A7hfjk0VRuCRbvtwcR0tYw&utm_source=native-share-menu&dl_branch=1" target="_blank"><Spotify /></a>
                                         </Icons>
                                     </BlockOfIcon>
                                 </IconsContainer>

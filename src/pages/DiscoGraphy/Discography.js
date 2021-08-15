@@ -2,10 +2,7 @@ import React from 'react'
 import './Discography.css'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import { AiFillApple } from 'react-icons/ai'
-import { IoMdPlay } from 'react-icons/io'
-import { SiAmazon } from 'react-icons/si'
-import { FaSoundcloud, FaSpotify } from 'react-icons/fa'
+import {FaSpotify, FaFacebookF, FaTwitter, FaYoutube, FaInstagram} from 'react-icons/fa'
 
 
 export const BlockOfIcon = styled.ul`
@@ -25,12 +22,11 @@ export const Icons = styled.li`
     margin-right:20px;
 `
 
-export const Apples = styled(AiFillApple)`
+export const Facebook = styled(FaFacebookF)`
     display:flex;
     justify-content: center;
     align-items:center;
     color:#fff;
-    border: 1px solid gray;
     font-size:25px;
 
     &:hover{
@@ -38,12 +34,11 @@ export const Apples = styled(AiFillApple)`
     }
 `
 
-export const Play = styled(IoMdPlay)`
+export const Instagram = styled(FaInstagram)`
     display:flex;
     justify-content: center;
     align-items:center;
     color:#fff;
-    border: 1px solid gray;
     font-size:25px;
 
     &:hover{
@@ -51,12 +46,11 @@ export const Play = styled(IoMdPlay)`
     }
 `
 
-export const Amazon = styled(SiAmazon)`
+export const Twitter = styled(FaTwitter)`
     display:flex;
     justify-content: center;
     align-items:center;
     color:#fff;
-    border: 1px solid gray;
     font-size:25px;
 
     &:hover{
@@ -64,12 +58,11 @@ export const Amazon = styled(SiAmazon)`
     }
 `
 
-export const Soundcloud = styled(FaSoundcloud)`
+export const Youtube = styled(FaYoutube)`
     display:flex;
     justify-content: center;
     align-items:center;
     color:#fff;
-    border: 1px solid gray;
     font-size:25px;
 
     &:hover{
@@ -82,7 +75,6 @@ export const Spotify = styled(FaSpotify)`
     justify-content: center;
     align-items:center;
     color:#fff;
-    border: 1px solid gray;
     font-size:25px;
 
     &:hover{
@@ -116,21 +108,21 @@ const Discography = () => {
                                     </Link>
                                     <IconsContainer>
                                         <BlockOfIcon>
-                                            <Icons>
-                                                <Link to="/"><Apples /></Link>
-                                            </Icons>
-                                            <Icons>
-                                                <Link to="/"><Play /></Link>
-                                            </Icons>
-                                            <Icons>
-                                                <Link to="/"><Amazon /></Link>
-                                            </Icons>
-                                            <Icons>
-                                                <Link to="/"><Spotify /></Link>
-                                            </Icons>
-                                            <Icons>
-                                                <Link to="/"><Soundcloud /></Link>
-                                            </Icons>
+                                        <Icons>
+                                            <a href="https://www.facebook.com/tariqfaizofficial/" target="_blank"><Facebook /></a>
+                                        </Icons>
+                                        <Icons>
+                                            <a href="https://instagram.com/tariqfaizofficial" target="_blank"><Instagram /></a>
+                                        </Icons>
+                                        <Icons>
+                                            <a href="https://twitter.com/drtariqfaiz" target="_blank"><Twitter /></a>
+                                        </Icons>
+                                        <Icons>
+                                            <a href="https://youtube.com/channel/UCkR160Ha5lOI8TuztwdWyCA" target="_blank"><Youtube /></a>
+                                        </Icons>
+                                        <Icons>
+                                            <a href="https://open.spotify.com/artist/5lX81FO7Lb5U6zrzinxAAe?si=A7hfjk0VRuCRbvtwcR0tYw&utm_source=native-share-menu&dl_branch=1" target="_blank"><Spotify /></a>
+                                        </Icons>
                                         </BlockOfIcon>
                                     </IconsContainer>
                                 </div>
@@ -144,21 +136,21 @@ const Discography = () => {
                                     </Link>
                                     <IconsContainer>
                                         <BlockOfIcon>
-                                            <Icons>
-                                                <Link to="/"><Apples /></Link>
-                                            </Icons>
-                                            <Icons>
-                                                <Link to="/"><Play /></Link>
-                                            </Icons>
-                                            <Icons>
-                                                <Link to="/"><Amazon /></Link>
-                                            </Icons>
-                                            <Icons>
-                                                <Link to="/"><Spotify /></Link>
-                                            </Icons>
-                                            <Icons>
-                                                <Link to="/"><Soundcloud /></Link>
-                                            </Icons>
+                                        <Icons>
+                                            <a href="https://www.facebook.com/tariqfaizofficial/" target="_blank"><Facebook /></a>
+                                        </Icons>
+                                        <Icons>
+                                            <a href="https://instagram.com/tariqfaizofficial" target="_blank"><Instagram /></a>
+                                        </Icons>
+                                        <Icons>
+                                            <a href="https://twitter.com/drtariqfaiz" target="_blank"><Twitter /></a>
+                                        </Icons>
+                                        <Icons>
+                                            <a href="https://youtube.com/channel/UCkR160Ha5lOI8TuztwdWyCA" target="_blank"><Youtube /></a>
+                                        </Icons>
+                                        <Icons>
+                                            <a href="https://open.spotify.com/artist/5lX81FO7Lb5U6zrzinxAAe?si=A7hfjk0VRuCRbvtwcR0tYw&utm_source=native-share-menu&dl_branch=1" target="_blank"><Spotify /></a>
+                                        </Icons>
                                         </BlockOfIcon>
                                     </IconsContainer>
                                 </div>
@@ -172,21 +164,21 @@ const Discography = () => {
                                     </Link>
                                     <IconsContainer>
                                         <BlockOfIcon>
-                                            <Icons>
-                                                <Link to="/"><Apples /></Link>
-                                            </Icons>
-                                            <Icons>
-                                                <Link to="/"><Play /></Link>
-                                            </Icons>
-                                            <Icons>
-                                                <Link to="/"><Amazon /></Link>
-                                            </Icons>
-                                            <Icons>
-                                                <Link to="/"><Spotify /></Link>
-                                            </Icons>
-                                            <Icons>
-                                                <Link to="/"><Soundcloud /></Link>
-                                            </Icons>
+                                        <Icons>
+                                            <a href="https://www.facebook.com/tariqfaizofficial/" target="_blank"><Facebook /></a>
+                                        </Icons>
+                                        <Icons>
+                                            <a href="https://instagram.com/tariqfaizofficial" target="_blank"><Instagram /></a>
+                                        </Icons>
+                                        <Icons>
+                                            <a href="https://twitter.com/drtariqfaiz" target="_blank"><Twitter /></a>
+                                        </Icons>
+                                        <Icons>
+                                            <a href="https://youtube.com/channel/UCkR160Ha5lOI8TuztwdWyCA" target="_blank"><Youtube /></a>
+                                        </Icons>
+                                        <Icons>
+                                            <a href="https://open.spotify.com/artist/5lX81FO7Lb5U6zrzinxAAe?si=A7hfjk0VRuCRbvtwcR0tYw&utm_source=native-share-menu&dl_branch=1" target="_blank"><Spotify /></a>
+                                        </Icons>
                                         </BlockOfIcon>
                                     </IconsContainer>
                                 </div>
@@ -200,21 +192,21 @@ const Discography = () => {
                                     </Link>
                                     <IconsContainer>
                                         <BlockOfIcon>
-                                            <Icons>
-                                                <Link to="/"><Apples /></Link>
-                                            </Icons>
-                                            <Icons>
-                                                <Link to="/"><Play /></Link>
-                                            </Icons>
-                                            <Icons>
-                                                <Link to="/"><Amazon /></Link>
-                                            </Icons>
-                                            <Icons>
-                                                <Link to="/"><Spotify /></Link>
-                                            </Icons>
-                                            <Icons>
-                                                <Link to="/"><Soundcloud /></Link>
-                                            </Icons>
+                                        <Icons>
+                                            <a href="https://www.facebook.com/tariqfaizofficial/" target="_blank"><Facebook /></a>
+                                        </Icons>
+                                        <Icons>
+                                            <a href="https://instagram.com/tariqfaizofficial" target="_blank"><Instagram /></a>
+                                        </Icons>
+                                        <Icons>
+                                            <a href="https://twitter.com/drtariqfaiz" target="_blank"><Twitter /></a>
+                                        </Icons>
+                                        <Icons>
+                                            <a href="https://youtube.com/channel/UCkR160Ha5lOI8TuztwdWyCA" target="_blank"><Youtube /></a>
+                                        </Icons>
+                                        <Icons>
+                                            <a href="https://open.spotify.com/artist/5lX81FO7Lb5U6zrzinxAAe?si=A7hfjk0VRuCRbvtwcR0tYw&utm_source=native-share-menu&dl_branch=1" target="_blank"><Spotify /></a>
+                                        </Icons>
                                         </BlockOfIcon>
                                     </IconsContainer>
                                 </div>
