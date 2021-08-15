@@ -36,28 +36,21 @@ const ContactPage = () => {
                 </div>
                 <div className="container">
                     <div className="row ">
-                        <div className="col-lg-4 col-md-4 justify-content-center">
+                        <div className="col-lg-6 col-md-6 justify-content-center">
                             <div className="booking">
                                 <h1 className="upperCase num">booking</h1>
-                                <p className="upperCase num">xyz</p>
-                                <p className="num">+(409)352-682</p>
-                                <p className="num">xyz@gmial.com</p>
+                                <p className="upperCase num">Tariq Faiz</p>
+                                <p className="num">+91 87880 71123</p>
+                                <p className="num">tariqfaizofficial@gmail.com</p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-4 justify-content-center">
-                            <div className="booking">
-                                <h1 className="upperCase num">press</h1>
-                                <p className="upperCase num">xyz</p>
-                                <p className="num">+(409)352-682</p>
-                                <p className="num">xyz@gmial.com</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-4 justify-content-center">
+                       
+                        <div className="col-lg-6 col-md-6 justify-content-center">
                             <div className="bookin">
                                 <h1 className="upperCase num">info</h1>
-                                <p className="upperCase num">xyz</p>
-                                <p className="num">+(409)352-682</p>
-                                <p className="num">xyz@gmial.com</p>
+                                <p className="upperCase num">Tariq Faiz</p>
+                                <p className="num">+91 87880 71123</p>
+                                <p className="num">tariqfaizofficial@gmail.com</p>
                             </div>
                         </div>
                     </div>
