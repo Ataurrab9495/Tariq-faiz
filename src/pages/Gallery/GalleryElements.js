@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {BiCamera} from 'react-icons/bi'
+
 
 export const Gallery = styled.div`
     border-top:1px solid rgba(59, 75, 91, 0.3);

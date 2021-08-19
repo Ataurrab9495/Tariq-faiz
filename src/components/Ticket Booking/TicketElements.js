@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Ticket = styled.div`
-    background:url('https://webredox.net/demo/wp/mousiqua/wp-content/uploads/2019/01/24.jpg'),linear-gradient(90deg, rgba(1,1,10,1) 0%, rgba(10,10,19,1) 50%, rgba(11,28,31,1) 100%, rgba(13,21,23,1) 100%);
+    background:url('https://webredox.net/demo/wp/mousiqua/wp-content/uploads/2019/01/24.jpg');
     background-size:100% 100%;
     background-blend-mode: exclusion;
     display:flex;
@@ -12,6 +12,15 @@ export const Ticket = styled.div`
     align-items:center;
     margin-left:auto;
     margin-right:auto;
+
+
+
+    &:before{
+        content:"";
+        position:absolute;
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(1,1,10,1) 0%, rgba(14,14,14,1) 2%, rgba(15,16,22,1) 16%, rgba(6,6,6,1) 100%, rgba(11,28,31,1) 100%, rgba(12,14,27,1) 100%);
+    }
 `
 
 export const TicketContainer = styled.div`
@@ -25,7 +34,8 @@ export const TicketContainer = styled.div`
 
     p{
         text-align:center;
-        color:#fff;
+        color:#FF8181;
+        font-size:34px !important;
     }
 
     .button{
@@ -34,7 +44,7 @@ export const TicketContainer = styled.div`
         justify-content: center;
     }
 
-    @media screen and (max-width:768px){
+    @media screen and (max-width:1025px){
        display:flex;
        justify-content:center;
 

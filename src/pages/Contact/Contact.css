@@ -1,7 +1,7 @@
 .contact{
     border-top: 1px solid grey;
     background: rgba(0, 0, 0, 0.884);
-    padding-top:60px;
+    padding-top:100px;
 }
 
 .contact-heading{
@@ -41,15 +41,15 @@ p{
 
 @media screen and (max-width:768px){
     .grids{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
+        display: grid !important;
+        grid-template-columns: repeat(5,1fr);
         justify-content: center;
         align-items: center;
         padding-bottom: 40px;
-        flex-wrap: wrap;
-      
-        
+        flex-wrap: wrap;    
     }
+
+    
 }
 
 .block-title{

@@ -12,6 +12,10 @@ import Discography from './DiscoGraphy/Discography'
 import GalleryArea from './Gallery/Gallery'
 import BlogNews from './News/News'
 import Tours from './Tours/Tour'
+import TotalAbout from '../components/TotalAbout/TotalAbout'
+import {Switch, Route} from 'react-router-dom'
+
+
 
 
 
@@ -24,6 +28,7 @@ const Home = () => {
     }
     return (
         <div>
+        
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle}/>
             <Crousels/>
@@ -34,9 +39,12 @@ const Home = () => {
             <Tours/>
             <Tickets/>
             <GalleryArea/>
-            <BlogNews/>
+            <BlogNews/>   
             <ContactPage/>
             <Footer/>
+            <Switch>
+                <Route path="/NewAbout" component={TotalAbout}/>
+            </Switch>
         </div>
     )
 }

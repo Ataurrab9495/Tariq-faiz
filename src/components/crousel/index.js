@@ -1,27 +1,21 @@
-import React,{useState} from 'react'
+import React from 'react'
 import {Carousel} from 'react-bootstrap'
-import {CarouselConatiner, CustomCarousal, CarouselH1, CarouselP, PlayIcon} from './CarouselElements'
+import {CarouselConatiner, CustomCarousal,PlayIcon} from './CarouselElements'
 import './index.css'
-import {Link} from 'react-router-dom'
 import Video from './Video'
 
 const Crousels = () => {
-  const[showModal, SetShowModal] = useState(false)
-
-  const openModal = () => {
-    SetShowModal(prev => !prev);
-  }
-
+  const [modalShow, setModalShow] = React.useState(false);
     return (
         <>
         <CarouselConatiner>
             <Carousel fade>
   <Carousel.Item>
     <img
-      className="d-block w-100 zoom-img"
-      src="https://i.ibb.co/6nv3rmS/Tariq-Faiz-BG1-1.png" 
+      className="d-block w-100 zoom-img cr-img"
+      src="https://i.ibb.co/CQHWHWv/image0.jpg" 
       alt="First slide"
-      height="620vh"
+      height="720vh"
       width="100%"
       background-size="cover"
     />
@@ -33,10 +27,10 @@ const Crousels = () => {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100 zoom-img"
-      src="https://i.ibb.co/2FRYHhR/Tariq-Faiz-BG1.png" 
+      className="d-block w-100 zoom-img cr-img"
+      src="https://i.ibb.co/PMJZm0s/IMG-1001.jpg" 
       alt="Second slide"
-      height="620vh"
+      height="720vh"
       width="100%"
       background-size="cover"
     />
@@ -44,10 +38,10 @@ const Crousels = () => {
     <Carousel.Caption>
       <CustomCarousal>
        
-        <Link to="/">
-        <PlayIcon onClick={openModal} />
-        <Video showModal={showModal} setShowModal={SetShowModal}/>
-        </Link>
+        <PlayIcon variant="primary" onClick={() => setModalShow(true)}/>
+        <Video  show={modalShow}
+        onHide={() => setModalShow(false)}/>
+        
       </CustomCarousal>
     </Carousel.Caption>
   </Carousel.Item>

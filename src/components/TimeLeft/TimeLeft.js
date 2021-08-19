@@ -10,7 +10,7 @@ const TimeLeft = () => {
     let interval = useRef()
 
     const startTimer = () => {
-        const countdownDate = new Date('Aug 25, 2021 00:00:00').getTime();
+        const countdownDate = new Date('Aug 25, 2022 00:00:00').getTime();
 
     interval = setInterval(() => {
         const now = new Date().getTime();
@@ -38,7 +38,7 @@ const TimeLeft = () => {
         return () => {
             clearInterval(interval.current); 
         };
-    });
+    },[]);
 
     return (
         <>

@@ -104,24 +104,24 @@ const Discography = () => {
                                     <h5 className="upperCase opc-7 mb-0">Limitless</h5>
                                     <Link to="/" className="link">View Album</Link>
                                     <Link to="/">
-                                        <img className="animated" src="https://webredox.net/demo/wp/mousiqua/wp-content/uploads/2018/12/1-1.jpg" />
+                                        <img className="animated" src="https://i.ibb.co/CQHWHWv/image0.jpg" alt=""/>
                                     </Link>
                                     <IconsContainer>
                                         <BlockOfIcon>
                                         <Icons>
-                                            <a href="https://www.facebook.com/tariqfaizofficial/" target="_blank"><Facebook /></a>
+                                            <a href="https://www.facebook.com/tariqfaizofficial/" target="_blank" rel="noopener noreferrer"><Facebook /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://instagram.com/tariqfaizofficial" target="_blank"><Instagram /></a>
+                                            <a href="https://instagram.com/tariqfaizofficial" target="_blank" rel="noopener noreferrer"><Instagram /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://twitter.com/drtariqfaiz" target="_blank"><Twitter /></a>
+                                            <a href="https://twitter.com/drtariqfaiz" target="_blank" rel="noopener noreferrer"><Twitter /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://youtube.com/channel/UCkR160Ha5lOI8TuztwdWyCA" target="_blank"><Youtube /></a>
+                                            <a href="https://youtube.com/channel/UCkR160Ha5lOI8TuztwdWyCA" target="_blank" rel="noopener noreferrer"><Youtube /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://open.spotify.com/artist/5lX81FO7Lb5U6zrzinxAAe?si=A7hfjk0VRuCRbvtwcR0tYw&utm_source=native-share-menu&dl_branch=1" target="_blank"><Spotify /></a>
+                                            <a href="https://open.spotify.com/artist/5lX81FO7Lb5U6zrzinxAAe?si=A7hfjk0VRuCRbvtwcR0tYw&utm_source=native-share-menu&dl_branch=1" target="_blank" rel="noopener noreferrer"><Spotify /></a>
                                         </Icons>
                                         </BlockOfIcon>
                                     </IconsContainer>
@@ -132,26 +132,26 @@ const Discography = () => {
                                     <h5 className="upperCase opc-7 mb-0">Limitless</h5>
                                     <Link to="/" className="link">View Album</Link>
                                     <Link to="/">
-                                        <img className="animated" src="https://webredox.net/demo/wp/mousiqua/wp-content/uploads/2018/10/2.jpg" />
+                                        <img className="animated" src="https://i.ibb.co/hVJMKZ7/500080000515-320693.jpg" alt="" />
                                     </Link>
                                     <IconsContainer>
                                         <BlockOfIcon>
                                         <Icons>
-                                            <a href="https://www.facebook.com/tariqfaizofficial/" target="_blank"><Facebook /></a>
+                                            <a href="https://www.facebook.com/tariqfaizofficial/" target="_blank" rel="noopener noreferrer"><Facebook /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://instagram.com/tariqfaizofficial" target="_blank"><Instagram /></a>
+                                            <a href="https://instagram.com/tariqfaizofficial" target="_blank" rel="noopener noreferrer"><Instagram /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://twitter.com/drtariqfaiz" target="_blank"><Twitter /></a>
+                                            <a href="https://twitter.com/drtariqfaiz" target="_blank" rel="noopener noreferrer"><Twitter /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://youtube.com/channel/UCkR160Ha5lOI8TuztwdWyCA" target="_blank"><Youtube /></a>
+                                            <a href="https://youtube.com/channel/UCkR160Ha5lOI8TuztwdWyCA" target="_blank" rel="noopener noreferrer"><Youtube /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://open.spotify.com/artist/5lX81FO7Lb5U6zrzinxAAe?si=A7hfjk0VRuCRbvtwcR0tYw&utm_source=native-share-menu&dl_branch=1" target="_blank"><Spotify /></a>
+                                            <a href="https://open.spotify.com/artist/5lX81FO7Lb5U6zrzinxAAe?si=A7hfjk0VRuCRbvtwcR0tYw&utm_source=native-share-menu&dl_branch=1" target="_blank" rel="noopener noreferrer"><Spotify /></a>
                                         </Icons>
-                                        </BlockOfIcon>
+                                        </BlockOfIcon> rel="noopener noreferrer"
                                     </IconsContainer>
                                 </div>
                             </div>
@@ -160,52 +160,52 @@ const Discography = () => {
                                     <h5 className="upperCase opc-7 mb-0">Limitless</h5>
                                     <Link to="/" className="link">View Album</Link>
                                     <Link to="/">
-                                        <img className="animated" src="	https://webredox.net/demo/wp/mousiqua/wp-content/uploads/2018/07/3.jpg" />
+                                        <img className="animated" src="	https://i.ibb.co/g6q5czt/umeed-poster.jpg" alt="" />
                                     </Link>
                                     <IconsContainer>
                                         <BlockOfIcon>
                                         <Icons>
-                                            <a href="https://www.facebook.com/tariqfaizofficial/" target="_blank"><Facebook /></a>
+                                            <a href="https://www.facebook.com/tariqfaizofficial/" target="_blank" rel="noopener noreferrer"><Facebook /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://instagram.com/tariqfaizofficial" target="_blank"><Instagram /></a>
+                                            <a href="https://instagram.com/tariqfaizofficial" target="_blank" rel="noopener noreferrer"><Instagram /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://twitter.com/drtariqfaiz" target="_blank"><Twitter /></a>
+                                            <a href="https://twitter.com/drtariqfaiz" target="_blank" rel="noopener noreferrer"><Twitter /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://youtube.com/channel/UCkR160Ha5lOI8TuztwdWyCA" target="_blank"><Youtube /></a>
+                                            <a href="https://youtube.com/channel/UCkR160Ha5lOI8TuztwdWyCA" target="_blank" rel="noopener noreferrer"><Youtube /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://open.spotify.com/artist/5lX81FO7Lb5U6zrzinxAAe?si=A7hfjk0VRuCRbvtwcR0tYw&utm_source=native-share-menu&dl_branch=1" target="_blank"><Spotify /></a>
+                                            <a href="https://open.spotify.com/artist/5lX81FO7Lb5U6zrzinxAAe?si=A7hfjk0VRuCRbvtwcR0tYw&utm_source=native-share-menu&dl_branch=1" target="_blank" rel="noopener noreferrer"><Spotify /></a>
                                         </Icons>
                                         </BlockOfIcon>
                                     </IconsContainer>
-                                </div>
+                                </div> rel="noopener noreferrer"
                             </div>
                             <div className="col-lg-3 col-md-3">
                                 <div className="block-content">
                                     <h5 className="upperCase opc-7 mb-0">Limitless</h5>
                                     <Link to="/" className="link">View Album</Link>
                                     <Link to="/">
-                                        <img className="animated" src="https://webredox.net/demo/wp/mousiqua/wp-content/uploads/2018/04/4.jpg" />
+                                        <img className="animated" src="https://i.ibb.co/fpHTwQn/IMG-4653.jpg" alt="" />
                                     </Link>
                                     <IconsContainer>
                                         <BlockOfIcon>
                                         <Icons>
-                                            <a href="https://www.facebook.com/tariqfaizofficial/" target="_blank"><Facebook /></a>
+                                            <a href="https://www.facebook.com/tariqfaizofficial/" target="_blank" rel="noopener noreferrer"><Facebook /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://instagram.com/tariqfaizofficial" target="_blank"><Instagram /></a>
+                                            <a href="https://instagram.com/tariqfaizofficial" target="_blank" rel="noopener noreferrer"><Instagram /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://twitter.com/drtariqfaiz" target="_blank"><Twitter /></a>
+                                            <a href="https://twitter.com/drtariqfaiz" target="_blank" rel="noopener noreferrer"><Twitter /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://youtube.com/channel/UCkR160Ha5lOI8TuztwdWyCA" target="_blank"><Youtube /></a>
+                                            <a href="https://youtube.com/channel/UCkR160Ha5lOI8TuztwdWyCA" target="_blank" rel="noopener noreferrer"><Youtube /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://open.spotify.com/artist/5lX81FO7Lb5U6zrzinxAAe?si=A7hfjk0VRuCRbvtwcR0tYw&utm_source=native-share-menu&dl_branch=1" target="_blank"><Spotify /></a>
+                                            <a href="https://open.spotify.com/artist/5lX81FO7Lb5U6zrzinxAAe?si=A7hfjk0VRuCRbvtwcR0tYw&utm_source=native-share-menu&dl_branch=1" target="_blank" rel="noopener noreferrer"><Spotify /></a>
                                         </Icons>
                                         </BlockOfIcon>
                                     </IconsContainer>

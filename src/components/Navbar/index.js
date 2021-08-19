@@ -2,7 +2,7 @@ import React,{useState, useEffect} from 'react';
 import {FaBars} from 'react-icons/fa'
 import {ImMusic} from 'react-icons/im'
 
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, Search,PlayList } from './NavbarElements'
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks,PlayList } from './NavbarElements'
 
 const Navbar = ({toggle}) => {
 
@@ -30,9 +30,6 @@ const Navbar = ({toggle}) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="/">HOME</NavLinks>
-                        </NavItem>
-                        <NavItem>
                             <NavLinks to="about">ABOUT</NavLinks>
                         </NavItem>
                         <NavItem>
@@ -54,10 +51,8 @@ const Navbar = ({toggle}) => {
                             <NavLinks to="contact">CONTACT</NavLinks>
                         </NavItem>
                         <PlayList>
-                        <NavLinks to="album"><ImMusic/></NavLinks>
-                            
-                        </PlayList>
-                        
+                        <NavLinks to="album"><ImMusic/></NavLinks> 
+                        </PlayList>         
                     </NavMenu>
                 </NavbarContainer>
             </Nav>

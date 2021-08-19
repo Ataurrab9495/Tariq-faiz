@@ -1,6 +1,6 @@
 import React from 'react'
 import { Gallery, GalleryIconContainer, Button, GalleryHeading, GalleryH1 } from './GalleryElements'
-import { Link } from 'react-router-dom'
+
 import './Gallery.css'
 
 
@@ -46,7 +46,7 @@ const GalleryArea = () => {
                     <div class="two "><img src="//picsum.photos/seed/z/350" alt="" className="img" /></div> */}
                 </div>
                 <div className="Button">
-                    <Button className="btn btn-white"><a href="https://instagram.com/tariqfaizofficial" target="_blank">Fllow on Instagram</a></Button>
+                    <Button className="btn btn-white"><a href="https://instagram.com/tariqfaizofficial" target="_blank" rel="noopener noreferrer">Fllow on Instagram</a></Button>
                 </div>
             </Gallery>
         </>

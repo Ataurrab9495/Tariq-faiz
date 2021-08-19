@@ -29,7 +29,7 @@ export const AlbumHeading = styled.h1`
     }
 
     @media screen and (max-width:480px){
-        font-size:45px;
+        font-size:35px;
         text-align:center;
     }
 
@@ -63,12 +63,23 @@ export const BlockTitle= styled.div`
     }
 `
 
+
+export const MainContainer= styled.div`
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around !important;
+    
+`
+
+
 export const AlbumInfo= styled.div`
     display:flex;
     justify-content:center;
     align-items: center;
     margin-top:100px;
     color:#fff;
+    flex-direction:column;
+    
 `
 
 export const AlbumUl= styled.ul`
@@ -179,10 +190,5 @@ export const PlayListContainer = styled.div`
     padding-right:calc(var(--bs-gutter-x)/2);
     margin-left:auto;
     margin-right:auto;
-    
-`
-
-export const PlayList = styled.div`
-    
     
 `

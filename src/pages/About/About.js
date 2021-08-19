@@ -9,12 +9,11 @@ import {
     Twitter,
     Spotify,
     IconsContainer,
-    AboutItems1,
     AboutItems2,
     AboutItems3,
     Tickets
 } from './AboutElements'
-import { Link } from 'react-router-dom'
+
 
 const About = () => {
     return (
@@ -36,33 +35,25 @@ const About = () => {
                                 <IconsContainer>
                                     <BlockOfIcon>
                                         <Icons>
-                                            <a href="https://www.facebook.com/tariqfaizofficial/" target="_blank"><Facebook /></a>
+                                            <a href="https://www.facebook.com/tariqfaizofficial/" target="_blank" rel="noopener noreferrer"><Facebook /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://instagram.com/tariqfaizofficial" target="_blank"><Instagram /></a>
+                                            <a href="https://instagram.com/tariqfaizofficial" target="_blank" rel="noopener noreferrer"><Instagram /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://twitter.com/drtariqfaiz" target="_blank"><Twitter /></a>
+                                            <a href="https://twitter.com/drtariqfaiz" target="_blank" rel="noopener noreferrer" ><Twitter /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://youtube.com/channel/UCkR160Ha5lOI8TuztwdWyCA" target="_blank"><Youtube /></a>
+                                            <a href="https://youtube.com/channel/UCkR160Ha5lOI8TuztwdWyCA" target="_blank" rel="noopener noreferrer"><Youtube /></a>
                                         </Icons>
                                         <Icons>
-                                            <a href="https://open.spotify.com/artist/5lX81FO7Lb5U6zrzinxAAe?si=A7hfjk0VRuCRbvtwcR0tYw&utm_source=native-share-menu&dl_branch=1" target="_blank"><Spotify /></a>
+                                            <a href="https://open.spotify.com/artist/5lX81FO7Lb5U6zrzinxAAe?si=A7hfjk0VRuCRbvtwcR0tYw&utm_source=native-share-menu&dl_branch=1" target="_blank" rel="noopener noreferrer"><Spotify /></a>
                                         </Icons>
                                     </BlockOfIcon>
                                 </IconsContainer>
                             </AboutItems>
                         </div>
-                        {/* <div className="col-lg-3 col-md-3 padding">
-                            <AboutItems1>
-                                <div className="flex">
-                                    <h3>upcoming tour</h3>
-                                    <p>Fort Mason Center</p>
-                                    <p>Brooklyn, New York</p>
-                                </div>
-                            </AboutItems1>
-                        </div> */}
+                       
                         <div className="col-lg-4 col-md-4 padding">
                             <AboutItems2>
                                 <div className="flex">
